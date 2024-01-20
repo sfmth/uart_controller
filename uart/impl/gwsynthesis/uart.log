@@ -1,0 +1,37 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/farhad/bin/gowin/uart/src/uart.v'
+Analyzing Verilog file '/home/farhad/bin/gowin/uart/src/uart_core.v'
+Compiling module 'uart'("/home/farhad/bin/gowin/uart/src/uart.v":3)
+Compiling module 'uart_core'("/home/farhad/bin/gowin/uart/src/uart_core.v":3)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/farhad/bin/gowin/uart/src/uart_core.v":54)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/farhad/bin/gowin/uart/src/uart_core.v":57)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/farhad/bin/gowin/uart/src/uart_core.v":65)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/farhad/bin/gowin/uart/src/uart_core.v":72)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/farhad/bin/gowin/uart/src/uart_core.v":108)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("/home/farhad/bin/gowin/uart/src/uart_core.v":117)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/farhad/bin/gowin/uart/src/uart_core.v":150)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/farhad/bin/gowin/uart/src/uart_core.v":159)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/farhad/bin/gowin/uart/src/uart_core.v":163)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/farhad/bin/gowin/uart/src/uart_core.v":179)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/farhad/bin/gowin/uart/src/uart.v":50)
+NOTE  (EX0101) : Current top module is "uart"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/farhad/bin/gowin/uart/impl/gwsynthesis/uart.vg" completed
+[100%] Generate report file "/home/farhad/bin/gowin/uart/impl/gwsynthesis/uart_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,20 @@
+{
+ "Files" : [
+  {
+   "Path" : "/home/farhad/bin/gowin/uart/src/uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/farhad/bin/gowin/uart/src/uart_core.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "/home/farhad/bin/gowin/uart/src"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/farhad/bin/gowin/uart/impl/temp/rtl_parser.result",
+ "Top" : "uart",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

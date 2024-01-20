@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "/home/farhad/bin/gowin/uart/src/uart.v",
+  "InstLine" : 3,
+  "InstName" : "uart",
+  "ModuleFile" : "/home/farhad/bin/gowin/uart/src/uart.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "uart",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/farhad/bin/gowin/uart/src/uart.v",
+    "InstLine" : 21,
+    "InstName" : "uart0",
+    "ModuleFile" : "/home/farhad/bin/gowin/uart/src/uart_core.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "uart_core"
+   }
+  ]
+ }
+]

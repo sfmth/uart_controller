@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1704995524" />
+    <testcase name="test_all" classname="test.test_uart_core" file="/home/farhad/bin/gowin/uart/test/test_uart_core.py" lineno="94" time="31.148220539093018" sim_time_ns="1801120000.001" ratio_time="57824170.0112685" />
+  </testsuite>
+</testsuites>
