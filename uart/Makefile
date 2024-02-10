@@ -137,3 +137,16 @@ delete:
 	rm -rf sim_build/ test/__pycache__/ $(PREFIX).vcd results.xml properties/
 	rm -f show_synth/*
 
+synth:
+	yosys -D LEDS_NR=6 -p "read_verilog src/$(PREFIX).v; synth_gowin -json $(PREFIX).json"
+
+pnr: synth
+	nextpnr-gowin --json $(PREFIX).json --write pnr$(PREFIX).json --device GW1NR-LV9QN88PC6/I5 --family GW1N-9C --cst tangnano9k.cst
+
+pack: pnr
+	gowin_pack -d GW1N-9C -o pack.fs pnr$(PREFIX).json
+
+flash_fpga: pack
+	openFPGALoader -b tangnano9k pack.fs
+
+
